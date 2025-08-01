@@ -3,9 +3,9 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class BulletForgeExample54TargetServer : TargetRules
+public class BulletForgeExample54Server : TargetRules
 {
-	public BulletForgeExample54TargetServer(TargetInfo Target) : base(Target)
+	public BulletForgeExample54Server(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Server;
 		DefaultBuildSettings = BuildSettingsVersion.Latest;
