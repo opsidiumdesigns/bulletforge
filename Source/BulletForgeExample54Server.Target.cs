@@ -3,13 +3,14 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class BulletForgeExample54Target : TargetRules
+public class BulletForgeExample54TargetServer : TargetRules
 {
-	public BulletForgeExample54Target(TargetInfo Target) : base(Target)
+	public BulletForgeExample54TargetServer(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Game;
+		Type = TargetType.Server;
 		DefaultBuildSettings = BuildSettingsVersion.Latest;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;
+		BuildEnvironment = TargetBuildEnvironment.Shared;
 		ExtraModuleNames.Add("BulletForgeExample54");
 	}
 }
