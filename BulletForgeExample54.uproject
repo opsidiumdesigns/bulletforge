@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.4",
+	"EngineAssociation": "5.7",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -22,6 +22,6 @@
 			"Name": "BulletForge",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/39186d1b-27ef-47a2-91c2-1d0b5de81b37"
-		},
+		}
 	]
 }
