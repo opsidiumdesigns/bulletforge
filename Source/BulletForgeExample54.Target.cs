@@ -9,7 +9,11 @@ public class BulletForgeExample54Target : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.Latest;
+<<<<<<< HEAD
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
+=======
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_6;
+>>>>>>> origin/5.6
 		ExtraModuleNames.Add("BulletForgeExample54");
 	}
 }
