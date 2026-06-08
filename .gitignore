@@ -1,0 +1,7 @@
+Binaries/
+Intermediate/
+DerivedDataCache/
+Plugins/
+Saved/
+BulletForgeExample*
+.vsconfig
